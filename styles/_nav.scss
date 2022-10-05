@@ -1,21 +1,22 @@
 .start {
-    background-color: $background;
-    height: 100vh;
+    background-color: rgb(73, 92, 41);
+    height: 90vh;
     width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: white;
+    color: beige;
 
     .herotxt {
-        font-family: monospace;
         text-align: center;
         h1 {
             font-size: 5rem;
+            font-family: 'Major Mono Display', monospace;
         }
         h2 {
             font-size: 3rem;
+            font-family: 'Montserrat Alternates', sans-serif;
         }
     } 
 }
@@ -24,7 +25,7 @@
   position:relative;
   display:block;
   width:60px;
-  border-bottom:solid 25px darkgreen;
+  border-bottom:solid 25px beige;
   border-left:solid 15px rgba(255, 0, 0, 0);
   border-right:solid 15px rgba(255, 0, 0, 0);
 }
@@ -74,7 +75,7 @@
   position: fixed;
   z-index: 2;
   top: 0;
-  left: 0;
+  left: 0vw;
   background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
@@ -84,6 +85,7 @@
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
+  font-family: 'Montserrat Alternates', sans-serif;
   font-size: 25px;
   color: #818181;
   display: block;

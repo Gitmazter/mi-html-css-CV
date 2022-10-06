@@ -1,12 +1,12 @@
 #facepic {
     height: 50mm;
     width: 50mm;
+    border-radius: 5mm;
 }
 
 .resume {
-    border: 1em rgb(73, 92, 41) solid;
-    border-top: 12em rgb(73, 92, 41) solid;
-    display: block;
+    top:3rem;
+    position: relative;
     font-size: 1rem;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
@@ -65,5 +65,9 @@
 
     .education {
         flex-direction: column;
+    }
+
+    .skills {
+        margin-bottom: $skills_padding;
     }
 }   

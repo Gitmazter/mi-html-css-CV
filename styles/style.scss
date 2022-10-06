@@ -1,5 +1,8 @@
 /*Variables*/
-$background:rgb(0, 0, 0);
+$background:rgb(73, 92, 41);
+$footer_height: 10vh;
+$footer_social_height: $footer_height * 0.8;
+$skills_padding:$footer_height + 7;
 
 @import './nav';
 @import './hero';
@@ -26,6 +29,38 @@ body {
   .enableEthereumButton{
     position: relative;
     top:40vh;
+  }
+
+
+  .topnav {
+    height: 3rem;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    background-color: beige;
+    border-bottom: 1px black solid;
+    border-top: 1px black solid;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Major Mono Display', monospace;
+    .homebut {
+      height: 3rem;
+    }
+    
+    a {
+      flex-grow: 1;
+      background-color: beige;
+      color: black;
+      border-right: 2px black dotted;
+      text-align: center;
+    }
+    a:nth-child(1) {
+      border-left: 2px black dotted;
+    }
+    a:hover {
+      background-color: black;
+      color: white;
+    }
   }
 
 
